@@ -2,7 +2,7 @@ var seed = document.getElementById("seed");
 var width = seed.offsetWidth;
 // number of buttons to create for detected width
 var squaresToCreate = Math.floor(width / 20);
-squaresToCreate -= Math.floor(squaresToCreate / 5);
+squaresToCreate -= Math.floor(squaresToCreate / 6);
 var squareTemplate = document.getElementById("square");
 
 function appendRow(containerId, numberOfSquares, rowCount) {
